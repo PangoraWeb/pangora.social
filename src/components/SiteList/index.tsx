@@ -48,6 +48,9 @@ import CompassIcon from "@/icons/CompassIcon";
 import RadioIcon from "@/icons/RadioIcon";
 import DenmarkIcon from "@/icons/DenmarkIcon";
 import WHexagonIcon from "@/icons/WHexagonIcon";
+import RobotIcon from "@/icons/RobotIcon";
+import InfinityIcon from "@/icons/InfinityIcon";
+import MoodSmileBeamIcon from "@/icons/MoodSmileBeamIcon";
 
 const categories = [
   {
@@ -142,14 +145,14 @@ const categories = [
     categories: "technology",
     slug: "ai",
     name: "Artificial Intelligence",
-    icon: <MicrochipIcon />,
+    icon: <RobotIcon />,
     color: "group-hover:text-default-500",
   },
   {
     categories: "technology",
     slug: "gamedev",
     name: "Game Development",
-    icon: <MicrochipIcon />,
+    icon: <GamepadIcon />,
     color: "group-hover:text-default-500",
   },
   {
@@ -233,7 +236,7 @@ const categories = [
     categories: "social",
     slug: "neurodivergence",
     name: "Neurodivergence",
-    icon: <AccessibleIcon />,
+    icon: <InfinityIcon />,
     color: "group-hover:text-fuchsia-500",
   },
   {
@@ -261,7 +264,7 @@ const categories = [
     categories: "social",
     slug: "memes",
     name: "Memes",
-    icon: <CompassIcon />,
+    icon: <MoodSmileBeamIcon />,
     color: "group-hover:text-blue-500",
   },
   {
@@ -289,7 +292,7 @@ const categories = [
     categories: "entertainment",
     slug: "piracy",
     name: "Piracy",
-    icon: <ACircleIcon />,
+    icon: <SkullIcon />,
     color: "group-hover:text-orange-500",
   },
   {
