@@ -48,6 +48,9 @@ import CompassIcon from "@/icons/CompassIcon";
 import RadioIcon from "@/icons/RadioIcon";
 import DenmarkIcon from "@/icons/DenmarkIcon";
 import WHexagonIcon from "@/icons/WHexagonIcon";
+import RobotIcon from "@/icons/RobotIcon";
+import InfinityIcon from "@/icons/InfinityIcon";
+import MoodSmileBeamIcon from "@/icons/MoodSmileBeamIcon";
 import { GetSiteResponse } from "lemmy-js-client";
 import {
   Card,
@@ -162,6 +165,20 @@ const categories = [
     color: "group-hover:text-default-500",
   },
   {
+    categories: "technology",
+    slug: "ai",
+    name: "Artificial Intelligence",
+    icon: <RobotIcon />,
+    color: "group-hover:text-default-500",
+  },
+  {
+    categories: "technology",
+    slug: "gamedev",
+    name: "Game Development",
+    icon: <GamepadIcon />,
+    color: "group-hover:text-default-500",
+  },
+  {
     categories: "gaming",
     slug: "starcitizen",
     name: "Star Citizen",
@@ -240,6 +257,13 @@ const categories = [
   },
   {
     categories: "social",
+    slug: "neurodivergence",
+    name: "Neurodivergence",
+    icon: <InfinityIcon />,
+    color: "group-hover:text-fuchsia-500",
+  },
+  {
+    categories: "social",
     slug: "cypherpunk",
     name: "CypherPunk",
     icon: <SkullIcon />,
@@ -257,6 +281,13 @@ const categories = [
     slug: "compass",
     name: "Political Compass",
     icon: <CompassIcon />,
+    color: "group-hover:text-blue-500",
+  },
+  {
+    categories: "social",
+    slug: "memes",
+    name: "Memes",
+    icon: <MoodSmileBeamIcon />,
     color: "group-hover:text-blue-500",
   },
   {
@@ -278,6 +309,13 @@ const categories = [
     slug: "anime",
     name: "Anime",
     icon: <TvIcon />,
+    color: "group-hover:text-orange-500",
+  },
+  {
+    categories: "entertainment",
+    slug: "piracy",
+    name: "Piracy",
+    icon: <SkullIcon />,
     color: "group-hover:text-orange-500",
   },
   {
@@ -449,6 +487,10 @@ const sites = [
     url: "programming.dev",
   },
   {
+    categories: "technology/gamedev",
+    url: "programming.dev",
+  },
+  {
     categories: "technology/radio",
     url: "lemmy.radio",
   },
@@ -467,6 +509,10 @@ const sites = [
   {
     categories: "technology/general",
     url: "infosec.pub",
+  },
+  {
+    categories: "technology/ai",
+    url: "lemmy.dbzer0.com",
   },
   {
     categories: "gaming/warframe",
@@ -509,6 +555,18 @@ const sites = [
     url: "rblind.com",
   },
   {
+    categories: "social/neurodivergence",
+    url: "lemmy.dbzer0.com",
+  },
+  {
+    categories: "social/memes",
+    url: "lemmy.blahaj.zone",
+  },
+  {
+    categories: "social/memes",
+    url: "lemmy.ml",
+  },
+  {
     categories: "social/compass",
     url: "lemmy.basedcount.com",
   },
@@ -527,6 +585,10 @@ const sites = [
   {
     categories: "entertainment/anime",
     url: "ani.social",
+  },
+  {
+    categories: "entertainment/piracy",
+    url: "lemmy.dbzer0.com",
   },
   {
     categories: "science/solarpunk",
