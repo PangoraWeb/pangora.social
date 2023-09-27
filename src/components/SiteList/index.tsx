@@ -15,7 +15,6 @@ import BrushIcon from "@/icons/BrushIcon";
 import { useState } from "react";
 import MicrochipIcon from "@/icons/MicrochipIcon";
 import AndroidIcon from "@/icons/AndroidIcon";
-import { useRouter } from "next/navigation";
 import PlanetIcon from "@/icons/PlanetIcon";
 import CardsIcon from "@/icons/CardsIcon";
 import FlagIcon from "@/icons/FlagIcon";
@@ -649,7 +648,6 @@ const sites = [
 
 export default function SiteList() {
   const [selectedCategory, setSelectedCategory] = useState("");
-  const router = useRouter();
 
   return (
     <div className="flex flex-col gap-3">
@@ -684,13 +682,11 @@ export default function SiteList() {
                 );
 
                 if (matchingSites.length > 0) {
-                  router.push(
-                    `https://${
-                      matchingSites[
-                        Math.floor(Math.random() * matchingSites.length)
-                      ].url
-                    }`
-                  );
+                  window.location.href = `https://${
+                    matchingSites[
+                      Math.floor(Math.random() * matchingSites.length)
+                    ].url
+                  }`;
                   return;
                 }
 
