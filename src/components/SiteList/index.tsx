@@ -47,6 +47,7 @@ import ClockHour2Icon from "@/icons/ClockHour2Icon";
 import CompassIcon from "@/icons/CompassIcon";
 import RadioIcon from "@/icons/RadioIcon";
 import DenmarkIcon from "@/icons/DenmarkIcon";
+import WHexagonIcon from "@/icons/WHexagonIcon";
 
 const categories = [
   {
@@ -170,6 +171,13 @@ const categories = [
     slug: "ttrpg",
     name: "TTRPG",
     icon: <ShieldIcon />,
+    color: "group-hover:text-red-500",
+  },
+  {
+    categories: "gaming",
+    slug: "warframe",
+    name: "Warframe or Soulframe",
+    icon: <WHexagonIcon />,
     color: "group-hover:text-red-500",
   },
   {
@@ -443,6 +451,10 @@ const sites = [
   {
     categories: "technology/general",
     url: "infosec.pub",
+  },
+  {
+    categories: "gaming/warframe",
+    url: "dormi.zone",
   },
   {
     categories: "gaming/starcitizen",
