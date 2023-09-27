@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div>
       <div className="flex items-center justify-center h-screen">
-        <div className="flex flex-col items-center gap-7 text-center">
+        <div className="flex flex-col items-center gap-7 text-center text-default-600">
           <div className="flex gap-3 items-center">
             <PHexagonIcon width={32} />
             <h1 className="text-4xl">Pangora</h1>
