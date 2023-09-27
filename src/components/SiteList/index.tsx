@@ -759,11 +759,6 @@ export default function SiteList() {
 
   const selectedSiteDetails = useMemo(() => {
     if (selectedSites) {
-      console.log(
-        instance_stats.instance_details.find(
-          (instance: any) => instance.domain === selectedSites[selectedSite]
-        )
-      );
       return instance_stats.instance_details.find(
         (instance: any) => instance.domain === selectedSites[selectedSite]
       );
