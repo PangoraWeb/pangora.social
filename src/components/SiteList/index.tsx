@@ -36,6 +36,7 @@ import FranceIcon from "@/icons/FranceIcon";
 import MalaysiaIcon from "@/icons/MalaysiaIcon";
 import NetherlandsIcon from "@/icons/NetherlandsIcon";
 import PolandIcon from "@/icons/PolandIcon";
+import PortugalIcon from "@/icons/PortugalIcon";
 import UKIcon from "@/icons/UKIcon";
 import ACircleIcon from "@/icons/ACircleIcon";
 import SwordsIcon from "@/icons/SwordsIcon";
@@ -432,6 +433,13 @@ const categories = [
   },
   {
     categories: "regional/other",
+    slug: "portugal",
+    name: "Portugal",
+    icon: <PortugalIcon />,
+    color: "group-hover:text-red-500",
+  },
+  {
+    categories: "regional/other",
     slug: "sweden",
     name: "Sweden",
     icon: <SwedenIcon />,
@@ -671,6 +679,10 @@ const sites = [
     url: "szmer.info",
   },
   {
+    categories: "regional/other/portugal",
+    url: "lemmy.pt",
+  },
+  {
     categories: "regional/other/midwest",
     url: "midwest.social",
   },
@@ -705,6 +717,10 @@ const sites = [
   {
     categories: "general",
     url: "lemmings.world",
+  },
+  {
+    categories: "general",
+    url: "lemmy.thesanewriter.com",
   },
   {
     categories: "social/anarchist",
@@ -743,6 +759,11 @@ export default function SiteList() {
 
   const selectedSiteDetails = useMemo(() => {
     if (selectedSites) {
+      console.log(
+        instance_stats.instance_details.find(
+          (instance: any) => instance.domain === selectedSites[selectedSite]
+        )
+      );
       return instance_stats.instance_details.find(
         (instance: any) => instance.domain === selectedSites[selectedSite]
       );

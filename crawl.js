@@ -10,7 +10,13 @@ try {
   // Javascript may crash when loading the crawl output.
   const run = child.spawn(
     "cargo",
-    ["run", "--", "--start-instances", "programming.dev", "--json"],
+    [
+      "run",
+      "--",
+      "--start-instances",
+      "programming.dev, lemmy.world, lemm.ee",
+      "--json",
+    ],
     {
       cwd: "lemmy-stats-crawler",
     }
@@ -34,10 +40,34 @@ try {
     stats.instance_details = stats.instance_details.map((instance) => {
       return {
         domain: instance.domain,
-        node_info: instance.node_info,
+        node_info: {
+          software: instance.node_info.software,
+          openRegistrations: instance.node_info.openRegistrations,
+        },
         site_info: {
-          site_view: instance.site_info.site_view,
-          admins: instance.site_info.admins,
+          site_view: {
+            site: {
+              name: instance.site_info.site_view.site.name,
+              icon: instance.site_info.site_view.site.icon,
+              description: instance.site_info.site_view.site.description,
+              actor_id: instance.site_info.site_view.site.actor_id,
+            },
+            counts: {
+              users: instance.site_info.site_view.counts.users,
+              communities: instance.site_info.site_view.counts.communities,
+            },
+          },
+          admins: instance.site_info.admins.map((admin) => {
+            return {
+              person: {
+                name: admin.person.name,
+                display_name: admin.person.display_name,
+                avatar: admin.person.avatar,
+                bio: admin.person.bio,
+                bot_account: admin.person.bot_account,
+              },
+            };
+          }),
           version: instance.site_info.version,
         },
       };

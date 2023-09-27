@@ -4,7 +4,6 @@ export default function RobotIcon({ width = 24 }: IconProps) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      class="icon icon-tabler icon-tabler-robot"
       width={width}
       height={width}
       viewBox="0 0 24 24"
