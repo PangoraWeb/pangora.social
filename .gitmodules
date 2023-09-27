@@ -1,0 +1,3 @@
+[submodule "lemmy-stats-crawler"]
+	path = lemmy-stats-crawler
+	url = https://github.com/LemmyNet/lemmy-stats-crawler.git
