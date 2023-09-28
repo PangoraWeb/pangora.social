@@ -90,7 +90,14 @@ export default function SiteList({
                         <div>
                           <div className="px-2 py-2">
                             <div className="flex">
-                              <Avatar src={admin.person?.avatar} isBordered />
+                              <Avatar
+                                src={
+                                  "avatar" in admin.person
+                                    ? admin.person?.avatar
+                                    : undefined
+                                }
+                                isBordered
+                              />
                               <div className="ml-3">
                                 <h6 className="text-sm font-bold flex text-center items-center">
                                   {admin.person?.display_name ??
@@ -109,7 +116,9 @@ export default function SiteList({
                             <p
                               className="text-xs py-3 prose prose-invert"
                               dangerouslySetInnerHTML={mdToHtml(
-                                admin.person?.bio
+                                "bio" in admin.person
+                                  ? admin.person?.bio
+                                  : undefined
                               )}
                             ></p>
                           </div>
@@ -122,7 +131,11 @@ export default function SiteList({
                     >
                       <Avatar
                         size="sm"
-                        src={admin.person.avatar}
+                        src={
+                          "avatar" in admin.person
+                            ? admin.person?.avatar
+                            : undefined
+                        }
                         className=""
                         classNames={{
                           base: "transition-all duration-500 w-4 max-w-4 min-w-4 h-4 max-h-4 min-h-4 data-[hover=true]:scale-150 data-[hover=true]:-translate-y-1",
