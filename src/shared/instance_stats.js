@@ -3,7 +3,7 @@ export const instance_stats =
   {
     "version": "0.18.4",
     "observer": {
-      "uptime_alltime": "98.83",
+      "uptime_alltime": "98.84",
       "softwarename": "lemmy",
       "countryname": "Private",
       "state": "Private",
@@ -17,7 +17,7 @@ export const instance_stats =
         "actor_id": "https://programming.dev/"
       },
       "counts": {
-        "users": 6624,
+        "users": 6635,
         "communities": 172
       }
     },
@@ -130,7 +130,7 @@ export const instance_stats =
         "actor_id": "https://lemmy.dbzer0.com/"
       },
       "counts": {
-        "users": 11129,
+        "users": 11142,
         "communities": 118
       }
     },
@@ -188,7 +188,7 @@ export const instance_stats =
   {
     "version": "0.18.4",
     "observer": {
-      "uptime_alltime": "97.61",
+      "uptime_alltime": "97.62",
       "softwarename": "lemmy",
       "countryname": "Private",
       "state": "Private",
@@ -202,8 +202,8 @@ export const instance_stats =
         "actor_id": "https://lemmy.world/"
       },
       "counts": {
-        "users": 134263,
-        "communities": 9416
+        "users": 134712,
+        "communities": 9420
       }
     },
     "admins": [
@@ -295,7 +295,7 @@ export const instance_stats =
   {
     "version": "0.18.4",
     "observer": {
-      "uptime_alltime": "99.65",
+      "uptime_alltime": "99.66",
       "softwarename": "lemmy",
       "countryname": "Private",
       "state": "Private",
@@ -309,8 +309,8 @@ export const instance_stats =
         "actor_id": "https://lemm.ee/"
       },
       "counts": {
-        "users": 22435,
-        "communities": 1117
+        "users": 22657,
+        "communities": 1118
       }
     },
     "admins": [
@@ -411,7 +411,7 @@ export const instance_stats =
         "actor_id": "https://lemmy.blahaj.zone/"
       },
       "counts": {
-        "users": 6942,
+        "users": 6948,
         "communities": 168
       }
     },
@@ -449,7 +449,7 @@ export const instance_stats =
   {
     "version": "0.18.4",
     "observer": {
-      "uptime_alltime": "98.58",
+      "uptime_alltime": "98.59",
       "softwarename": "lemmy",
       "countryname": "Germany",
       "state": null,
@@ -463,8 +463,8 @@ export const instance_stats =
         "actor_id": "https://lemmings.world/"
       },
       "counts": {
-        "users": 512,
-        "communities": 10
+        "users": 702,
+        "communities": 13
       }
     },
     "admins": [
@@ -496,7 +496,7 @@ export const instance_stats =
         "actor_id": "https://pawb.social/"
       },
       "counts": {
-        "users": 1080,
+        "users": 1083,
         "communities": 66
       }
     },
@@ -561,7 +561,7 @@ export const instance_stats =
         "actor_id": "https://yiffit.net/"
       },
       "counts": {
-        "users": 706,
+        "users": 707,
         "communities": 39
       }
     },
@@ -695,8 +695,8 @@ export const instance_stats =
         "actor_id": "https://lemmy.ml/"
       },
       "counts": {
-        "users": 47496,
-        "communities": 4038
+        "users": 47538,
+        "communities": 4039
       }
     },
     "admins": [
@@ -743,7 +743,7 @@ export const instance_stats =
   {
     "version": "0.18.4",
     "observer": {
-      "uptime_alltime": "97.48",
+      "uptime_alltime": "97.49",
       "softwarename": "lemmy",
       "countryname": "United States",
       "state": "Florida",
@@ -757,7 +757,7 @@ export const instance_stats =
         "actor_id": "https://startrek.website/"
       },
       "counts": {
-        "users": 2744,
+        "users": 2747,
         "communities": 5
       }
     },
@@ -809,7 +809,7 @@ export const instance_stats =
         "actor_id": "https://lemmy.film/"
       },
       "counts": {
-        "users": 358,
+        "users": 361,
         "communities": 30
       }
     },
@@ -851,7 +851,7 @@ export const instance_stats =
         "actor_id": "https://ani.social/"
       },
       "counts": {
-        "users": 232,
+        "users": 242,
         "communities": 19
       }
     },
@@ -905,7 +905,7 @@ export const instance_stats =
   {
     "version": "0.18.4",
     "observer": {
-      "uptime_alltime": "83.99",
+      "uptime_alltime": "84.00",
       "softwarename": "lemmy",
       "countryname": "Russia",
       "state": "Leningrad Oblast",
@@ -919,7 +919,7 @@ export const instance_stats =
         "actor_id": "https://mander.xyz/"
       },
       "counts": {
-        "users": 1028,
+        "users": 1029,
         "communities": 102
       }
     },
@@ -938,7 +938,7 @@ export const instance_stats =
   {
     "version": "0.18.4",
     "observer": {
-      "uptime_alltime": "99.52",
+      "uptime_alltime": "99.53",
       "softwarename": "lemmy",
       "countryname": "Lithuania",
       "state": "Vilnius City Municipality",
@@ -952,7 +952,7 @@ export const instance_stats =
         "actor_id": "https://monero.town/"
       },
       "counts": {
-        "users": 311,
+        "users": 312,
         "communities": 45
       }
     },
@@ -970,7 +970,7 @@ export const instance_stats =
   {
     "version": "0.18.4",
     "observer": {
-      "uptime_alltime": "98.48",
+      "uptime_alltime": "98.49",
       "softwarename": "lemmy",
       "countryname": "United States",
       "state": "New Jersey",
@@ -984,7 +984,7 @@ export const instance_stats =
         "actor_id": "https://fanaticus.social/"
       },
       "counts": {
-        "users": 173,
+        "users": 175,
         "communities": 224
       }
     },
@@ -1025,7 +1025,7 @@ export const instance_stats =
         "actor_id": "https://lemmy.studio/"
       },
       "counts": {
-        "users": 244,
+        "users": 245,
         "communities": 38
       }
     },
@@ -1053,7 +1053,7 @@ export const instance_stats =
   {
     "version": "0.18.4-nsfw",
     "observer": {
-      "uptime_alltime": "99.41",
+      "uptime_alltime": "99.37",
       "softwarename": "lemmy",
       "countryname": "Private",
       "state": "Private",
@@ -1062,12 +1062,12 @@ export const instance_stats =
     "site_view": {
       "site": {
         "name": "PornLemmy",
-        "icon": "https://pornlemmy.com/pictrs/image/f586d4eb-5f4c-4ce6-a9c7-ee76c222837d.png",
+        "icon": "https://pornlemmy.com/pictrs/image/280d7a03-d982-430a-8c3f-9a33fdbe60ab.png",
         "description": "Clean fun safe porn - NSFW Lemmy instance",
         "actor_id": "https://pornlemmy.com/"
       },
       "counts": {
-        "users": 3041,
+        "users": 3097,
         "communities": 381
       }
     },
@@ -1087,7 +1087,7 @@ export const instance_stats =
   {
     "version": "0.18.3-nsfwpatch",
     "observer": {
-      "uptime_alltime": "98.83",
+      "uptime_alltime": "98.84",
       "softwarename": "lemmy",
       "countryname": "Private",
       "state": "Private",
@@ -1101,7 +1101,7 @@ export const instance_stats =
         "actor_id": "https://lemmynsfw.com/"
       },
       "counts": {
-        "users": 39584,
+        "users": 39759,
         "communities": 1151
       }
     },
@@ -1182,7 +1182,7 @@ export const instance_stats =
         "actor_id": "https://lemmy.ca/"
       },
       "counts": {
-        "users": 6476,
+        "users": 6485,
         "communities": 589
       }
     },
@@ -1249,7 +1249,7 @@ export const instance_stats =
         "actor_id": "https://feddit.uk/"
       },
       "counts": {
-        "users": 2784,
+        "users": 2788,
         "communities": 229
       }
     },
@@ -1281,7 +1281,7 @@ export const instance_stats =
         "actor_id": "https://feddit.dk/"
       },
       "counts": {
-        "users": 478,
+        "users": 479,
         "communities": 14
       }
     },
@@ -1313,7 +1313,7 @@ export const instance_stats =
         "actor_id": "https://lemmy.nz/"
       },
       "counts": {
-        "users": 781,
+        "users": 783,
         "communities": 7
       }
     },
@@ -1352,7 +1352,7 @@ export const instance_stats =
         "actor_id": "https://aussie.zone/"
       },
       "counts": {
-        "users": 1998,
+        "users": 2000,
         "communities": 41
       }
     },
@@ -1411,7 +1411,7 @@ export const instance_stats =
         "actor_id": "https://feddit.de/"
       },
       "counts": {
-        "users": 10501,
+        "users": 10512,
         "communities": 608
       }
     },
@@ -1492,7 +1492,7 @@ export const instance_stats =
         "actor_id": "https://jlai.lu/"
       },
       "counts": {
-        "users": 609,
+        "users": 621,
         "communities": 72
       }
     },
@@ -1518,7 +1518,7 @@ export const instance_stats =
   {
     "version": "0.18.4",
     "observer": {
-      "uptime_alltime": "99.32",
+      "uptime_alltime": "99.33",
       "softwarename": "lemmy",
       "countryname": "Netherlands",
       "state": null,
@@ -1532,7 +1532,7 @@ export const instance_stats =
         "actor_id": "https://feddit.nl/"
       },
       "counts": {
-        "users": 2390,
+        "users": 2397,
         "communities": 109
       }
     },
@@ -1576,7 +1576,7 @@ export const instance_stats =
         "actor_id": "https://lemmy.eco.br/"
       },
       "counts": {
-        "users": 939,
+        "users": 942,
         "communities": 65
       }
     },
@@ -1625,7 +1625,7 @@ export const instance_stats =
         "actor_id": "https://feddit.it/"
       },
       "counts": {
-        "users": 1579,
+        "users": 1582,
         "communities": 52
       }
     },
@@ -1653,7 +1653,7 @@ export const instance_stats =
   {
     "version": "0.18.4",
     "observer": {
-      "uptime_alltime": "99.46",
+      "uptime_alltime": "99.47",
       "softwarename": "lemmy",
       "countryname": "Sweden",
       "state": "Stockholm County",
@@ -1667,7 +1667,7 @@ export const instance_stats =
         "actor_id": "https://feddit.nu/"
       },
       "counts": {
-        "users": 353,
+        "users": 354,
         "communities": 10
       }
     },
@@ -1706,7 +1706,7 @@ export const instance_stats =
         "actor_id": "https://monyet.cc/"
       },
       "counts": {
-        "users": 2104,
+        "users": 2112,
         "communities": 37
       }
     },
@@ -1752,46 +1752,13 @@ export const instance_stats =
           "name": "MonyetBot",
           "display_name": "Blahaj",
           "avatar": "https://monyet.cc/pictrs/image/a518b3dd-880b-49d8-9d9a-52bd2ca9105a.jpeg",
-          "bio": "I like Blahaj",
+          "bio": "I like Blahaj\n\n[Interested in how I work? Click me](https://github.com/monyet-cc/automonyet)",
           "bot_account": true
         }
       }
     ]
   },
-  {
-    "version": "0.18.1",
-    "observer": {
-      "uptime_alltime": "99.11",
-      "softwarename": "lemmy",
-      "countryname": "Iceland",
-      "state": null,
-      "signup": false
-    },
-    "site_view": {
-      "site": {
-        "name": "szmer",
-        "icon": "https://szmer.info/pictrs/image/XcQWr0D2CU.png",
-        "description": "Największa polskojęzyczna instancja Lemmiego.",
-        "actor_id": "https://szmer.info/"
-      },
-      "counts": {
-        "users": 2082,
-        "communities": 230
-      }
-    },
-    "admins": [
-      {
-        "person": {
-          "id": 112,
-          "name": "kolektyw_szmer",
-          "display_name": "kolektyw Szmer",
-          "avatar": "https://szmer.info/pictrs/image/523b6e6f-1cd5-4d20-8755-4f4c03742bd1.png",
-          "bio": "Kolektywne konto administracyjne.",
-          "bot_account": false
-        }
-      }
-    ]
-  },
+  null,
   {
     "version": "0.18.4",
     "observer": {
@@ -1843,7 +1810,7 @@ export const instance_stats =
         "actor_id": "https://midwest.social/"
       },
       "counts": {
-        "users": 1931,
+        "users": 1932,
         "communities": 150
       }
     },
@@ -1915,7 +1882,7 @@ export const instance_stats =
         "actor_id": "https://beehaw.org/"
       },
       "counts": {
-        "users": 13035,
+        "users": 13040,
         "communities": 37
       }
     },
@@ -1975,7 +1942,7 @@ export const instance_stats =
   {
     "version": "0.18.4",
     "observer": {
-      "uptime_alltime": "99.11",
+      "uptime_alltime": "99.12",
       "softwarename": "lemmy",
       "countryname": "Private",
       "state": "Private",
@@ -1989,7 +1956,7 @@ export const instance_stats =
         "actor_id": "https://sh.itjust.works/"
       },
       "counts": {
-        "users": 23473,
+        "users": 23526,
         "communities": 90
       }
     },
@@ -2069,7 +2036,7 @@ export const instance_stats =
         "actor_id": "https://sopuli.xyz/"
       },
       "counts": {
-        "users": 4181,
+        "users": 4203,
         "communities": 268
       }
     },
@@ -2099,7 +2066,7 @@ export const instance_stats =
   {
     "version": "0.18.4",
     "observer": {
-      "uptime_alltime": "98.38",
+      "uptime_alltime": "98.39",
       "softwarename": "lemmy",
       "countryname": "Private",
       "state": "Private",
@@ -2113,7 +2080,7 @@ export const instance_stats =
         "actor_id": "https://reddthat.com/"
       },
       "counts": {
-        "users": 4445,
+        "users": 4462,
         "communities": 165
       }
     },
@@ -2169,7 +2136,7 @@ export const instance_stats =
   {
     "version": "0.19.0-rc.1",
     "observer": {
-      "uptime_alltime": "93.76",
+      "uptime_alltime": "93.81",
       "softwarename": "lemmy",
       "countryname": "Private",
       "state": "Private",
@@ -2179,7 +2146,7 @@ export const instance_stats =
       "site": {
         "name": "lemmy.thesanewriter",
         "icon": "https://lemmy.thesanewriter.com/pictrs/image/310b3d0a-c14a-48a3-853e-a54389ce42d7.png",
-        "description": "TheSaneWriter's general purpose instance for various types of content. Feel free to join and create communities.",
+        "description": "TheSaneWriter&#x27;s general purpose instance for various types of content. Feel free to join and create communities.",
         "actor_id": "https://lemmy.thesanewriter.com/"
       },
       "counts": {
@@ -2212,7 +2179,7 @@ export const instance_stats =
   {
     "version": "0.18.2",
     "observer": {
-      "uptime_alltime": "98.43",
+      "uptime_alltime": "98.44",
       "softwarename": "lemmy",
       "countryname": "United States",
       "state": null,
@@ -2300,7 +2267,7 @@ export const instance_stats =
   {
     "version": "0.18.4",
     "observer": {
-      "uptime_alltime": "98.18",
+      "uptime_alltime": "98.23",
       "softwarename": "lemmy",
       "countryname": "Germany",
       "state": "Land Berlin",
@@ -2314,7 +2281,7 @@ export const instance_stats =
         "actor_id": "https://diyrpg.org/"
       },
       "counts": {
-        "users": 44,
+        "users": 45,
         "communities": 8
       }
     },
@@ -2334,7 +2301,7 @@ export const instance_stats =
   {
     "version": "0.18.4",
     "observer": {
-      "uptime_alltime": "97.53",
+      "uptime_alltime": "97.55",
       "softwarename": "lemmy",
       "countryname": "United States",
       "state": "Florida",
@@ -2348,7 +2315,7 @@ export const instance_stats =
         "actor_id": "https://ttrpg.network/"
       },
       "counts": {
-        "users": 7429,
+        "users": 7432,
         "communities": 37
       }
     },
@@ -2374,7 +2341,7 @@ export const instance_stats =
   {
     "version": "0.18.4",
     "observer": {
-      "uptime_alltime": "99.59",
+      "uptime_alltime": "99.60",
       "softwarename": "lemmy",
       "countryname": "Iceland",
       "state": "Reykjavikurborg",
@@ -2388,7 +2355,7 @@ export const instance_stats =
         "actor_id": "https://links.hackliberty.org/"
       },
       "counts": {
-        "users": 239,
+        "users": 241,
         "communities": 16
       }
     },
@@ -2421,7 +2388,7 @@ export const instance_stats =
         "actor_id": "https://futurology.today/"
       },
       "counts": {
-        "users": 69,
+        "users": 70,
         "communities": 5
       }
     },
@@ -2469,7 +2436,7 @@ export const instance_stats =
         "actor_id": "https://lemmy.whynotdrs.org/"
       },
       "counts": {
-        "users": 695,
+        "users": 697,
         "communities": 16
       }
     },
@@ -2503,7 +2470,7 @@ export const instance_stats =
   {
     "version": "0.18.4",
     "observer": {
-      "uptime_alltime": "85.79",
+      "uptime_alltime": "85.91",
       "softwarename": "lemmy",
       "countryname": "Private",
       "state": "Private",
@@ -2517,7 +2484,7 @@ export const instance_stats =
         "actor_id": "https://literature.cafe/"
       },
       "counts": {
-        "users": 134,
+        "users": 135,
         "communities": 23
       }
     },
@@ -2568,7 +2535,7 @@ export const instance_stats =
         "actor_id": "https://lemmy.basedcount.com/"
       },
       "counts": {
-        "users": 127,
+        "users": 129,
         "communities": 6
       }
     },
@@ -2623,7 +2590,7 @@ export const instance_stats =
   {
     "version": "0.18.3",
     "observer": {
-      "uptime_alltime": "99.10",
+      "uptime_alltime": "99.11",
       "softwarename": "lemmy",
       "countryname": "France",
       "state": null,
@@ -2637,7 +2604,7 @@ export const instance_stats =
         "actor_id": "https://hexbear.net/"
       },
       "counts": {
-        "users": 24916,
+        "users": 24926,
         "communities": 101
       }
     },
@@ -2790,7 +2757,7 @@ export const instance_stats =
         "actor_id": "https://lemmygrad.ml/"
       },
       "counts": {
-        "users": 9860,
+        "users": 9861,
         "communities": 602
       }
     },
@@ -2859,7 +2826,7 @@ export const instance_stats =
         "actor_id": "https://lemmy.zip/"
       },
       "counts": {
-        "users": 1618,
+        "users": 1628,
         "communities": 106
       }
     },
@@ -2898,7 +2865,7 @@ export const instance_stats =
   {
     "version": "0.18.4",
     "observer": {
-      "uptime_alltime": "99.40",
+      "uptime_alltime": "99.41",
       "softwarename": "lemmy",
       "countryname": "United States",
       "state": null,
@@ -2912,7 +2879,7 @@ export const instance_stats =
         "actor_id": "https://mtgzone.com/"
       },
       "counts": {
-        "users": 438,
+        "users": 439,
         "communities": 25
       }
     },
@@ -2978,11 +2945,106 @@ export const instance_stats =
       }
     ]
   },
-  null,
   {
     "version": "0.18.4",
     "observer": {
-      "uptime_alltime": "98.81",
+      "uptime_alltime": "99.66",
+      "softwarename": "lemmy",
+      "countryname": "Germany",
+      "state": null,
+      "signup": true
+    },
+    "site_view": {
+      "site": {
+        "name": "dormi.zone",
+        "icon": "https://dormi.zone/pictrs/image/15f43493-3b66-40d9-a613-23d1337e5668.webp",
+        "description": "A Lemmy instance for fans of the third-person action games Warframe and Soulframe, developed by Digital Extremes.",
+        "actor_id": "https://dormi.zone/"
+      },
+      "counts": {
+        "users": 992,
+        "communities": 4
+      }
+    },
+    "admins": [
+      {
+        "person": {
+          "id": 2,
+          "name": "admin",
+          "bot_account": false
+        }
+      },
+      {
+        "person": {
+          "id": 3,
+          "name": "claymorebadger",
+          "avatar": "https://dormi.zone/pictrs/image/c6db9b87-2d53-4fc7-9cd1-07a1052284eb.jpeg",
+          "bot_account": false
+        }
+      },
+      {
+        "person": {
+          "id": 4,
+          "name": "Apostroffie",
+          "avatar": "https://dormi.zone/pictrs/image/fba4c64b-6a47-487a-848f-f98639787bce.jpeg",
+          "bot_account": false
+        }
+      },
+      {
+        "person": {
+          "id": 5,
+          "name": "HKayn",
+          "avatar": "https://dormi.zone/pictrs/image/75867c27-2aa7-4277-9cc3-c0133d3a61f8.png",
+          "bot_account": false
+        }
+      },
+      {
+        "person": {
+          "id": 6,
+          "name": "Philip",
+          "avatar": "https://dormi.zone/pictrs/image/09c4177f-141e-4aa0-b181-d980e370938a.jpeg",
+          "bot_account": false
+        }
+      },
+      {
+        "person": {
+          "id": 102,
+          "name": "Cephalon_Zelgius",
+          "avatar": "https://dormi.zone/pictrs/image/94190248-b3b8-49ab-8305-c537a1fe2d03.png",
+          "bio": "Probably not a bot",
+          "bot_account": false
+        }
+      },
+      {
+        "person": {
+          "id": 103,
+          "name": "Kliuqard",
+          "avatar": "https://dormi.zone/pictrs/image/678a02da-16d6-48e7-8ce9-47aedc883c9b.jpeg",
+          "bio": "who are you",
+          "bot_account": false
+        }
+      },
+      {
+        "person": {
+          "id": 8533,
+          "name": "admins",
+          "bot_account": false
+        }
+      },
+      {
+        "person": {
+          "id": 53816,
+          "name": "A_random_bee",
+          "avatar": "https://dormi.zone/pictrs/image/58d45f4f-e38d-4372-b767-673279e68d55.png",
+          "bot_account": false
+        }
+      }
+    ]
+  },
+  {
+    "version": "0.18.4",
+    "observer": {
+      "uptime_alltime": "98.82",
       "softwarename": "lemmy",
       "countryname": "Germany",
       "state": "Bavaria",
@@ -2994,7 +3056,7 @@ export const instance_stats =
         "actor_id": "https://infosec.pub/"
       },
       "counts": {
-        "users": 3226,
+        "users": 3229,
         "communities": 107
       }
     },
@@ -3021,7 +3083,7 @@ export const instance_stats =
   {
     "version": "0.18.4",
     "observer": {
-      "uptime_alltime": "97.86",
+      "uptime_alltime": "97.87",
       "softwarename": "lemmy",
       "countryname": "United States",
       "state": "Washington",
@@ -3035,7 +3097,7 @@ export const instance_stats =
         "actor_id": "https://lemmy.sdf.org/"
       },
       "counts": {
-        "users": 3752,
+        "users": 3757,
         "communities": 185
       }
     },
@@ -3067,7 +3129,7 @@ export const instance_stats =
         "actor_id": "https://discuss.tchncs.de/"
       },
       "counts": {
-        "users": 4671,
+        "users": 4713,
         "communities": 199
       }
     },
@@ -3096,7 +3158,7 @@ export const instance_stats =
   {
     "version": "0.18.4",
     "observer": {
-      "uptime_alltime": "98.22",
+      "uptime_alltime": "98.23",
       "softwarename": "lemmy",
       "countryname": "Private",
       "state": "Private",
@@ -3110,7 +3172,7 @@ export const instance_stats =
         "actor_id": "https://lemdro.id/"
       },
       "counts": {
-        "users": 995,
+        "users": 996,
         "communities": 20
       }
     },
@@ -3145,47 +3207,7 @@ export const instance_stats =
       }
     ]
   },
-  {
-    "version": "0.18.4",
-    "observer": {
-      "uptime_alltime": "99.47",
-      "softwarename": "lemmy",
-      "countryname": "Private",
-      "state": "Private",
-      "signup": true
-    },
-    "site_view": {
-      "site": {
-        "name": "CompuVerse",
-        "icon": "https://compuverse.uk/pictrs/image/22ff150f-cf0b-4c00-aaa2-00e820da9865.jpeg",
-        "description": "A Universe of Technology!",
-        "actor_id": "https://compuverse.uk/"
-      },
-      "counts": {
-        "users": 121,
-        "communities": 26
-      }
-    },
-    "admins": [
-      {
-        "person": {
-          "id": 2,
-          "name": "cameron",
-          "display_name": "Cameron",
-          "avatar": "https://compuverse.uk/pictrs/image/3f818ccc-b024-4a07-82f2-950f232bd8f1.png",
-          "bot_account": false
-        }
-      },
-      {
-        "person": {
-          "id": 337,
-          "name": "TopHat",
-          "display_name": "TopHat",
-          "bot_account": false
-        }
-      }
-    ]
-  },
+  null,
   {
     "version": "0.18.4",
     "observer": {
@@ -3203,7 +3225,7 @@ export const instance_stats =
         "actor_id": "https://eviltoast.org/"
       },
       "counts": {
-        "users": 177,
+        "users": 180,
         "communities": 9
       }
     },
