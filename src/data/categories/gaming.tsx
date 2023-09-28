@@ -2,7 +2,9 @@ import CardsIcon from "@/icons/CardsIcon";
 import GamepadIcon from "@/icons/GamepadIcon";
 import PhotoIcon from "@/icons/PhotoIcon";
 import PlanetIcon from "@/icons/PlanetIcon";
+import SHexagonIcon from "@/icons/SHexagonIcon";
 import ShieldIcon from "@/icons/ShieldIcon";
+import StarsIcon from "@/icons/StarsIcon";
 import SwordsIcon from "@/icons/SwordsIcon";
 import WHexagonIcon from "@/icons/WHexagonIcon";
 
@@ -54,13 +56,13 @@ const entries = [
   {
     slug: "soulframe",
     name: "Soulframe",
-    icon: <WHexagonIcon />,
+    icon: <SHexagonIcon />,
     color: "amber",
   },
   {
     slug: "starfield",
     name: "Starfield",
-    icon: <WHexagonIcon />,
+    icon: <StarsIcon />,
     color: "indigo",
   },
 ];
