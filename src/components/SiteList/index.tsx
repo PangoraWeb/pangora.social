@@ -146,7 +146,7 @@ export default function SiteList({
                 </div>
               </div>
             </CardBody>
-            <CardFooter className="text-default-400 text-small justify-between flex-wrap gap-3">
+            <CardFooter className="text-default-500 text-small justify-between flex-wrap gap-3">
               <div className="flex gap-3 flex-wrap">
                 <p>{selectedSiteDetails?.site_view.counts.users} Users</p>
                 <p>
