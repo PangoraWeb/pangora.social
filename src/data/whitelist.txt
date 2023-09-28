@@ -1,0 +1,61 @@
+programming.dev         : programming-general, webdev, gamedev, technology-general
+lemmy.dbzer0.com        : ai, neurodivergence, anarchist, piracy
+lemmy.world             : general, photography, creative-general, performing, entertainment-general, memes
+lemm.ee                 : general
+lemmy.radio             : radio
+lemmy.blahaj.zone       : lgbtq
+lemmings.world          : general
+pawb.social             : furry
+yiffit.net              : furry
+rblind.com              : blind
+lemmy.ml                : general, art, memes
+startrek.website        : star-trek
+lemmy.film              : television-general, video
+ani.social              : anime
+slrpnk.net              : solarpunk
+mander.xyz              : science-general
+monero.town             : monero
+fanaticus.social        : sports
+lemmy.studio            : audio
+pornlemmy.com           : nsfw
+lemmynsfw.com           : nsfw
+lemmy.ca                : canada
+feddit.uk               : united-kingdom
+feddit.dk               : denmark
+lemmy.nz                : new-zealand
+aussie.zone             : australia
+feddit.de               : germany
+jlai.lu                 : france
+feddit.nl               : netherlands
+lemmy.eco.br            : brazil
+feddit.it               : italy
+feddit.nu               : sweden
+monyet.cc               : malaysia
+szmer.info              : poland
+lemmy.pt                : portugal
+midwest.social          : midwest
+beehaw.org              : general
+sh.itjust.works         : general, cybersecurity
+sopuli.xyz              : general
+reddthat.com            : general
+lemmy.thesanewriter.com : general
+pricefield.org          : life-is-strange
+diyrpg.org              : diyrpg
+ttrpg.network           : ttrpg
+links.hackliberty.org   : cypherpunk
+futurology.today        : futurology
+lemmy.whynotdrs.org     : gme
+literature.cafe         : literature, writing
+lemmy.basedcount.com    : political-compass
+hexbear.net             : marxist
+lemmygrad.ml            : marxist
+lemmy.zip               : gaming-general, starfield
+mtgzone.com             : magic-the-gathering
+citizensgaming.com      : star-citizen
+dormi.zone              : warframe, soulframe
+infosec.pub             : technology-general
+lemmy.sdf.org           : technology-general
+discuss.tchncs.de       : technology-general
+lemdro.id               : technology-general
+compuverse.uk           : technology-general
+eviltoast.org           : technology-general

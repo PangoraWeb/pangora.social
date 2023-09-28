@@ -18,7 +18,6 @@ const spoilerConfig = {
     return params.trim().match(/^spoiler\s+(.*)$/);
   },
 
-  /* eslint-disable  @typescript-eslint/no-explicit-any */
   render: (tokens: any, idx: any) => {
     const m = tokens[idx].info.trim().match(/^spoiler\s+(.*)$/);
 
