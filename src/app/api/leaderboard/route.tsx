@@ -24,7 +24,6 @@ export async function POST(req: Request) {
   try {
     data = JSON.parse(atob(body));
   } catch (e) {
-    console.log("not json");
     return new Response("invalid", {
       status: 500,
     });
