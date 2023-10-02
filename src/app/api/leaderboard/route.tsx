@@ -13,6 +13,8 @@ export async function GET() {
 
   const items = await db.all("SELECT * FROM scores");
 
+  console.log(items);
+
   return Response.json(JSON.stringify({ scores: items }));
 }
 
@@ -20,6 +22,8 @@ export async function POST(req: Request) {
   const body = decodeURIComponent(await req.text());
   //const body = decodeURIComponent(await req.text());
   let data;
+
+  console.log(body);
 
   try {
     data = JSON.parse(atob(body));
