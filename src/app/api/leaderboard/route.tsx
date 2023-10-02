@@ -13,17 +13,18 @@ export async function GET() {
 
   const items = await db.all("SELECT * FROM scores");
 
-  console.log(items);
-
-  return Response.json(JSON.stringify(items));
+  return Response.json(JSON.stringify({ scores: items }));
 }
 
 export async function POST(req: Request) {
+  const body = decodeURIComponent(await req.text());
+  //const body = decodeURIComponent(await req.text());
   let data;
 
   try {
-    data = await req.json();
+    data = JSON.parse(atob(body));
   } catch (e) {
+    console.log("not json");
     return new Response("invalid", {
       status: 500,
     });
