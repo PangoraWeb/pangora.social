@@ -71,9 +71,8 @@ export default async function JoinPage({
         {/* text-sky-500 */}
         {Object.keys(categoryTags).map((categoryTag) => {
           return (
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center" key={categoryTag}>
               <div
-                key={categoryTag}
                 className={`flex flex-row text-lg ${convertBaseColor(
                   getTag(categoryTag)?.color || "neutral"
                 )}`}
@@ -84,7 +83,7 @@ export default async function JoinPage({
               </div>
               <div className="flex flex-col text-center">
                 {categoryTags[categoryTag].map((tag) => {
-                  return <p>{tag.slug}</p>;
+                  return <p key={tag.slug}>{tag.slug}</p>;
                 })}
               </div>
               <Spacer y={5} />

@@ -1,10 +1,9 @@
 import { getChildrenCategories, getTags } from "@/data/categories";
 import GetWhitelist from "@/data/whitelist";
-import { instance_stats } from "@/shared/instance_stats";
-import { NextApiRequest } from "next";
+import { NextRequest } from "next/server";
 
 export async function GET(
-  req: NextApiRequest,
+  req: NextRequest,
   {
     params,
   }: {
@@ -13,7 +12,7 @@ export async function GET(
 ) {
   const whitelist = await GetWhitelist();
   const childCategories = getChildrenCategories(params.slug, whitelist);
-  let response;
+  let response: Response;
 
   if (childCategories.length !== 0) {
     response = Response.json(
