@@ -13,7 +13,7 @@ const entries = [
     slug: "creative-general",
     name: "General Creative Arts",
     icon: <UserIcon />,
-    color: "default",
+    color: "neutral",
   },
   {
     slug: "audio",

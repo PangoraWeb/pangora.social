@@ -9,7 +9,7 @@ const entries = [
     slug: "science-general",
     name: "General Science & Nature",
     icon: <LeafIcon />,
-    color: "default",
+    color: "neutral",
   },
   {
     slug: "solarpunk",

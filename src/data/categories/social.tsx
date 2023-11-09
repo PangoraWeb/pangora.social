@@ -48,12 +48,6 @@ const entries = [
     color: "violet",
   },
   {
-    slug: "marxist",
-    name: "Marxist-Leninist",
-    icon: <HammerIcon />,
-    color: "rose",
-  },
-  {
     slug: "political-compass",
     name: "Political Compass",
     icon: <CompassIcon />,

@@ -12,13 +12,13 @@ const entries = [
     color: "neutral",
   },
   {
-    slug: "webdev",
+    slug: "web-development",
     name: "Web Development",
     icon: <WorldIcon />,
     color: "green",
   },
   {
-    slug: "gamedev",
+    slug: "game-development",
     name: "Game Development",
     icon: <GamepadIcon />,
     color: "teal",

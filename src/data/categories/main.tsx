@@ -71,7 +71,7 @@ const entries = [
     slug: "general",
     name: "Everything / Other Topics",
     icon: <SunHighIcon />,
-    color: "default",
+    color: "neutral",
   },
 ];
 

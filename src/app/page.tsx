@@ -99,6 +99,21 @@ export default function Home() {
         </div>
       </div>
       <Spacer y={10} />
+      <div className="flex justify-center">
+        <div className="w-2/3 flex flex-row gap-3 text-default-400">
+          <a href="/tags" className="hover:text-blue-500 hover:underline">
+            Add your site to the site selector
+          </a>
+          <p>-</p>
+          <a
+            href="https://discord.gg/kwyxvYEYt4"
+            className="hover:text-blue-500 hover:underline"
+          >
+            Join our discord
+          </a>
+        </div>
+      </div>
+      <Spacer y={5} />
     </div>
   );
 }

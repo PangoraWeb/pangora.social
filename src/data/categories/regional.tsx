@@ -104,7 +104,7 @@ const entries = [
     color: "sky",
   },
   {
-    slug: "midwest",
+    slug: "usa-midwest",
     name: "Midwest USA",
     icon: <USAIcon />,
     color: "blue",

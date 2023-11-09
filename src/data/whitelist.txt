@@ -1,4 +1,3 @@
-programming.dev         : programming-general, webdev, gamedev, technology-general
 lemmy.dbzer0.com        : ai, neurodivergence, anarchist, piracy
 lemmy.world             : general, photography, creative-general, performing, entertainment-general, memes
 lemm.ee                 : general
@@ -33,7 +32,7 @@ feddit.nu               : sweden
 monyet.cc               : malaysia
 szmer.info              : poland
 lemmy.pt                : portugal
-midwest.social          : midwest
+midwest.social          : usa-midwest
 beehaw.org              : general
 sh.itjust.works         : general, cybersecurity
 sopuli.xyz              : general
@@ -47,8 +46,6 @@ futurology.today        : futurology
 lemmy.whynotdrs.org     : gme
 literature.cafe         : literature, writing
 lemmy.basedcount.com    : political-compass
-hexbear.net             : marxist
-lemmygrad.ml            : marxist
 lemmy.zip               : gaming-general, starfield
 mtgzone.com             : magic-the-gathering
 citizensgaming.com      : star-citizen
